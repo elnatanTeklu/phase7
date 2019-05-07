@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeGif</title>
+
+    <!-- sekelton style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>WeGif</h1>
+    </header>
+
+ 
+    <input class="u-full-width" type="text" id="searchtext" placeholder="Search..">
+    <button id="searchgifs" type="submit" onclick="data()">Search</button>
+   
+        <ul class="container-flex">
+            <li>
+                <h3 id="ac_0"></h3>
+            </li>
+
+            <li>
+                <h3 id="ac_1"></h3>
+            </li>
+
+            <li>
+                <h3 id="ac_2"></h3>
+            </li>
+            <li>
+                <h3 id="ac_3"></h3>
+            </li>
+            <li>
+                <h3 id="ac_4"></h3>
+            </li>
+        </ul>
+    
+    <div class="gif-section"></div>
+
+
+
+    <!-- add the script tag at the end of the html document
+            This allows the html dom to be set and then refrenced by the javascript later.  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/core.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

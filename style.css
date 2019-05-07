@@ -1,0 +1,176 @@
+body{
+    border: border-box;
+  
+}
+
+header{
+    text-align: center;
+}
+
+.u-full-width{
+    width: 50%;
+    margin-left: 12%;
+}
+
+
+.container-flex{
+    display: flex;
+    margin-left: 1%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 5%;
+    font-size: 2px;
+
+}
+
+#ac_0{
+    font-size: 8.5em;
+}
+#ac_1{
+    font-size: 8.5em;
+}
+#ac_2{
+    font-size: 8.5em;
+}
+#ac_3{
+    font-size: 8.5em;
+}
+#ac_4{
+    font-size: 8.5em;
+}
+#ac_5{
+    font-size: 8.5em;
+}
+
+.test{
+    background-color: black;
+    /* column-count: 3; */
+}
+
+.gif-section{
+    column-count: 1;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+
+
+
+/*
+
+Taking a moblie first approach responisve approach 
+
+
+*/
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    body{
+        border: border-box;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    .u-full-width{
+        width: 70%;
+        margin-left: 12%;
+    }
+    
+    .container{
+        margin-right: 3%;
+    
+    }
+
+    .container-flex{
+        display: flex;
+        margin-left: 11%;
+    }
+    
+    li{
+        text-decoration: none;
+        list-style: none;
+        margin-right: 1%;
+    
+    }
+
+    .gif-section{
+        column-count: 1;
+        margin-left: 1%;
+        margin-right: 10%;
+    }
+    
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    body{
+        border: border-box;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    .u-full-width{
+        width: 70%;
+        margin-left: 12%;
+    }
+    
+    .container{
+        margin-right: 3%;
+    
+    }
+
+    .container-flex{
+        display: flex;
+        margin-left: 11%;
+    }
+    
+    li{
+        text-decoration: none;
+        list-style: none;
+        margin-right: 1%;
+    
+    }
+
+    #ac_0{
+        font-size: 14em;
+    }
+    #ac_1{
+        font-size: 14em;
+    }
+    #ac_2{
+        font-size: 14em;
+    }
+    #ac_3{
+        font-size: 14em;
+    }
+    #ac_4{
+        font-size: 14em;
+    }
+    #ac_5{
+        font-size: 14em;
+    }
+    
+    .test{
+        background-color: black;
+        column-count: 3;
+    }
+
+    .gif-section{
+        column-count: 3;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+  }
